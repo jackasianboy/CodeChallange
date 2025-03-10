@@ -2,11 +2,19 @@
 import { useEffect } from "react";
 import Image from "next/image";
 
+interface Product {
+  id: number;
+  name: string;
+  description: string;
+  price: string;
+  image: string;
+}
+
 const ProductOverview = ({
   product,
   onClose,
 }: {
-  product: any;
+  product: Product;
   onClose: () => void;
 }) => {
   useEffect(() => {

@@ -4,10 +4,18 @@ import Image from "next/image";
 import ProductOverview from "./modals/ProductOverview";
 
 interface Product {
+  id: number;
+  name: string;
+  description: string;
+  price: string;
+  image: string;
+}
+
+interface ProductProps {
   isServices: boolean;
 }
 
-const products = [
+const products: Product[] = [
   {
     id: 1,
     name: "Wild West Boots",
@@ -74,9 +82,8 @@ const products = [
   },
 ];
 
-
-const Product = ({ isServices }: Product) => {
-  const [selectedProduct, setSelectedProduct] = useState<any | null>(null);
+const Product = ({ isServices }: ProductProps) => {
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   const displayedProducts = isServices ? products : products.slice(0, 4);
 

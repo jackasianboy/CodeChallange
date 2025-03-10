@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <CompanyOverview/>
-      <Product/>
+      <Product isServices={false}/>
       <Testimonial/>
       <Footer />
     </>

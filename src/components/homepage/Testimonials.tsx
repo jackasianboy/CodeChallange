@@ -66,7 +66,7 @@ const Testimonial = () => {
               {testimonial.name}
             </h3>
             <p className="text-gray-700 text-sm mt-2 italic">
-              "{testimonial.feedback}"
+              &quot;{testimonial.feedback}&quot;
             </p>
           </div>
         ))}

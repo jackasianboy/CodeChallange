@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import Image from "next/image";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 
@@ -12,7 +11,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-start">
             <Image src="/assets/CompanyLogo.png" alt="Company Logo" width={150} height={50} />
             <p className="mt-4 text-center md:text-left text-sm opacity-80">
-              Hideung - "Step Into the Wild, Walk with Pride."
+              Hideung - &quot;Step Into the Wild, Walk with Pride.&quot;
             </p>
           </div>
 
