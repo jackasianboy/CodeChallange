@@ -54,7 +54,7 @@ const products: Product[] = [
     description:
       "Dibuat dengan kulit asli berkualitas tinggi dan dirancang untuk menampilkan kesan maskulin yang kuat.",
     price: "4.799.000",
-    image: "/assets/products/product 14.jpeg",
+    image: "/assets/products/product 3.jpeg",
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const products: Product[] = [
     description:
       "Boots modern dengan gaya klasik yang memberikan kesan gagah dan pemberani.",
     price: "4.299.000",
-    image: "/assets/products/product 15.jpeg",
+    image: "/assets/products/product 9.jpeg",
   },
   {
     id: 7,
@@ -70,7 +70,7 @@ const products: Product[] = [
     description:
       "Dirancang untuk perjalanan panjang dengan bahan anti air dan kenyamanan maksimal.",
     price: "5.199.000",
-    image: "/assets/products/product 16.jpeg",
+    image: "/assets/products/product 7.jpeg",
   },
   {
     id: 8,
@@ -78,7 +78,7 @@ const products: Product[] = [
     description:
       "Boots dengan desain klasik ala koboi zaman dulu, memberikan kesan retro nan elegan.",
     price: "4.699.000",
-    image: "/assets/products/product 17.jpeg",
+    image: "/assets/products/product 1.jpeg",
   },
 ];
 
